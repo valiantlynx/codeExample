@@ -96,7 +96,7 @@ function App(props) {
             <Routes >
                 <Route exact path="/" />
 
-                <Route path="/initial" element={<h1>Current Balance: $<span id="value">{balance0}</span></h1>} />
+                <Route path="/initial" element={<h1>Initial Balance: $<span id="value">{balance0}</span></h1>} />
                 <Route path="/current" element={<h1>Current Balance: $<span id="value">{balance}</span></h1>} />
 
             </Routes>
